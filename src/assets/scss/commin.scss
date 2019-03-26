@@ -1,0 +1,169 @@
+.ellip {
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    text-overflow: ellipsis;
+}
+
+.fl {
+    float: left;
+}
+
+.fr {
+    float: right;
+}
+
+.center {
+    width: 1200px;
+    height: 100%;
+    margin: 0 auto;
+}
+
+body {
+    min-width: 1200px;
+}
+.el-message-box__status{
+    top: 17%;
+}
+.pagination-container {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.licuan .el-date-editor{
+    width: 480px;
+}
+.release .tijiao .tijiao_d .el-checkbox-group{
+    width: 446px;
+    float: right;
+}
+
+.release .tijiao .tijiao_d .el-checkbox-group .el-checkbox+.el-checkbox{
+    margin-left: 0px;
+    margin-right: 70px;
+    margin-top: 12px;
+}
+.release .tijiao .tijiao_d .el-checkbox-group .el-checkbox+.el-checkbox:nth-child(2){
+    margin-left: 50px;
+}
+.release .tijiao .tijiao_d .el-checkbox-group .el-checkbox+.el-checkbox:last-child{
+    margin-left: 22px;
+}
+
+.release .tijiao .tijiao_d .el-select {
+    width: 426px;
+}
+.release .tijiao .tijiao_d .el-autocomplete{
+    width: 425px;
+}
+
+.psspd .el-dialog--center {
+    border-radius: 20px;
+    padding-bottom: 40px;
+    .el-dialog__header{
+        padding-top: 60px;
+        padding-bottom: 0px;
+        .el-dialog__title{
+            color: #333333;
+            font-size: 24px;
+            font-family: 'SourceHanSansCN-Bold';
+            font-weight: bold;
+        }
+    }
+    .el-dialog__body{
+        padding: 20px 25px 10px;
+    }
+}
+
+.licuan .el-autocomplete{
+    width: 490px;
+}    
+.psspd .el-form-item {
+    text-align: right;
+}
+.psspd .el-cascader{
+    width: 495px;
+}
+.psspddd .el-select{
+    width: 100%;
+}
+.psspd .debtdataTypea-list .el-cascader{
+    width: 290px;
+}
+.datalist .datalist-top .debtdataTypea span.el-cascader{
+    border-left: none; 
+    padding-left: 0px;
+    background: none;
+    border: none;
+}
+.article_content p{
+       font-size:14px;
+        font-family:MicrosoftYaHeiLight;
+        font-weight:300;
+        color:rgba(128,128,128,1);
+        text-indent: 2em;
+}
+.article_content img{
+    display: block;
+    margin: 0 auto;
+}
+.article_content table tr td{
+     border: 1px solid #9298A6;
+}
+
+
+.detailsall .el-date-editor--daterange.el-input__inner{
+    width: 262px;
+}
+.tijiao input::placeholder{
+    font-size: 14px;
+}
+.tijiao .el-input--suffix .el-input__inner input::placeholder{
+    color: #000000;
+}
+.tijiao textarea::placeholder{
+    font-size: 14px;
+}
+//热门
+.remen_b .el-carousel__container{
+    height: 200px;
+}
+.remen_b .el-carousel__container .banner_b {
+    width: 240px;
+    height: 200px;
+    float: left;
+}
+.remen_b .el-carousel__container .banner_b img{
+    display: block;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+.password .el-select{
+    width: 400px;
+}
+
+
+.linqu .el-dialog {
+    width: 535px;
+}
+.linqu .el-button {
+    border: 1px solid white;
+}
+.remen .el-carousel__indicators--outside{
+    display: none;
+}
+
+.mainPay .el-dialog--center .el-dialog__header{
+    padding-top: 20px;
+}
+
+.beijinga .el-input-group--append input::-webkit-outer-spin-button,
+.beijinga .el-input-group--append input::-webkit-inner-spin-button{
+   appearance: none !important;
+}
+
+
+.beijinga .el-input-group--append input[type="number"].el-input__inner {
+   appearance: textfield !important;
+}

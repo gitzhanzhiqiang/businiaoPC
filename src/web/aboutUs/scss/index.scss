@@ -1,0 +1,383 @@
+@import '@/assets/scss/commin.scss';
+
+.datatitle-header{
+    width: 1200px;
+    margin: auto;
+    .datatitle-list{
+        padding:10px 2.5% 20px;
+        li {
+            display: inline-block;
+            margin:0 5.7%;
+            cursor: pointer;
+            &.active {
+                border-bottom: 1px solid #4B77E2;
+                color: #4B77E2;
+            }
+        }
+    }
+    .datatitle-title{
+        // padding-left: 135px;
+        // color: #ffffff;
+        height:230px;
+        img{
+            width: 100%;
+            height: 230px;
+        }
+    }
+}
+
+.content{
+    padding: 29px 56px 49px;
+    .content-title{
+        text-align: center;
+        height: 2px;
+        margin-top: 30px;
+        position: relative;
+        .line{
+            display: block;
+            width: 100%;
+            height: 2px;
+            background: #EDEEF2;
+        }
+        h3{
+            width: 180px;
+            background: #ffffff;
+            font-size: 20px;
+            color: #333333;
+            position: absolute;
+            top:-14px;
+            left:455px;
+        }
+    }
+    
+    input{ 
+        /* 【苹果手机边框稍微粗点的问题 */
+        /* 去掉默认样式，上边框的阴影，点击时的蒙版 */
+        outline: none;
+        -webkit-appearance: none; 
+        -webkit-appearance: none;
+        -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+         border: 1px solid rgba(204, 204, 204, 1);
+    }
+    // 公司介绍
+    .introduction{
+        font-family: 'MicrosoftYaHeiLight','微软雅黑';
+        //开头文字
+        .info{
+            font-size: 16px;
+            line-height: 24px;
+            text-indent: 2em;
+            margin-top: 30px;//临时数据
+            color: #666666;
+            &:first-child{
+                margin-top: 44px;
+            }
+        }
+        //中间的三张图
+        .small_icon{
+            padding:0 130px;
+            margin:36px 0 80px;
+            li{
+                display: inline-block;
+                margin-right: 221px;
+                &:last-child{
+                    margin-right: 0;
+                }
+                span{
+                    display: block;
+                    width: 124px;
+                    height: 124px;
+                    background: #F1F9FF;
+                    text-align: center;
+                    line-height: 155px;
+                    border-radius: 50%;
+                    img{
+                        width: 50px;
+                        height: 48px;
+                    }
+                }
+                p{
+                    text-align: center;
+                    font-size: 18px;
+                    color: #333333;
+                    margin-top: 17px;
+                }
+            }
+        }
+        //发展历程
+        .development{
+            margin-top: 54px;
+            img{
+                display:block;
+                width:64px;
+                height:64px;
+                margin:auto;
+            }
+            ol{
+                li{
+                    position: relative;
+                    margin-bottom: 5px;
+                    text-align: right;
+                    .line2{
+                        display: block;
+                        width: 4px;
+                        height: 78px;
+                        background: #EBEBEB;
+                        margin:0 auto;
+                        position: relative;
+                        //蓝色小圆
+                        &:before{
+                            content: '';
+                            display: block;
+                            width: 6px;
+                            height: 6px;
+                            border: 4px solid white;
+                            border-radius: 50%;
+                            margin-top: 2px;
+                            background: #3963D0;
+                            position: absolute;
+                            bottom:-7px;
+                            right:-5px;
+                        }
+                        //蓝色线条
+                        &:after{
+                            content: '————';
+                            display: block;
+                            color: #3963D0;
+                            position: absolute;
+                            bottom:-15px;
+                            right:-1px;
+                        }
+                    }
+                    //加粗时间
+                    h6{
+                        position: absolute;
+                        bottom:-15px;
+                        width: 450px;
+                        font-size: 16px;
+                    }
+                    //不加粗的内容
+                    p{
+                        position: absolute;
+                        bottom: -36px;
+                        width: 255px;
+                        line-height: 24px;
+                    }
+                    //奇数li去右边，文字左靠齐
+                    &:nth-child(odd){
+                        h6{
+                            text-align:left;
+                            right: 0;
+                        }
+                        p{
+                            text-align: left;
+                            right: 195px;
+                        }
+                        .line2{
+                            &:after{
+                                right:-55px;
+                            }
+                        }
+                    }
+                    &:nth-child(even){
+                        p{
+                            left:195px;
+                        }
+                    }
+                    &:nth-child(2){
+                        p{
+                            bottom:-60px;
+                        }
+                    }
+                }
+            }
+            .line2{
+                display: block;
+                width: 4px;
+                height: 85px;
+                background: #EBEBEB;
+                margin:0 auto;
+            }
+        }
+    }
+    //公司动态
+    .motion,.reports,.announcement{
+        ul{
+            font-family: 'MicrosoftYaHei-Bold','微软雅黑';
+            li{
+                padding:29px 0;
+                border-bottom: 1px solid #F7F7F7;
+                line-height: 20px;
+                font-size: 16px;
+                letter-spacing: 1px;
+                cursor: pointer;
+                h4{
+                    display: inline-block;
+                }
+                span{
+                    float: right;    
+                }
+                .right{
+                    margin-left: 30px;
+                }
+            }
+        }
+    }
+    //媒体报道
+    .reports{
+
+    }
+    //管理团队
+    .team{
+        ul{
+            padding-left: 17px;
+            >li{
+                margin-top: 110px;
+                width:365px;
+                height:530px;
+                display: inline-block;
+                vertical-align: top;//解决不对齐问题
+                border:1px solid rgba(217,217,217,1);
+                border-radius:20px;
+                padding-left: 60px;
+                padding-right: 55px;
+                position: relative;
+                line-height: 36px;
+                &:nth-child(odd){
+                    margin-right: 88px;
+                }
+                img{
+                    width: 200px;
+                    height: 200px;
+                    position: absolute;
+                    top: -70px;
+                    left:140px;
+                }
+                h3{
+                    margin-top:177px;
+                    font-size: 30px; 
+                    font-family: 'MicrosoftYaHei-Bold','微软雅黑';
+                    small{
+                        font-family: 'Menk-Garqag-Tig','微软雅黑';
+                        font-size: 20px;
+                        margin-left: 60px;
+                    }
+                }
+                ol{
+                    margin-top: 10px;
+                    li{
+                        font-family: 'MicrosoftYaHeiLight','微软雅黑';
+                        font-size: 18px;
+                    }
+                }
+            }
+        }
+    }
+    //网站公告
+    .announcement{
+
+    }
+    //联系我们
+    .contact{
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+        ul{
+            margin-top: 49px;
+            height: 362px;
+            li{
+                // display: inline-block;
+                float: left;
+                width:340px;
+                height: 100%;
+                margin-right: 32px;
+                text-align: center;
+                background: url("@/../img/contactbg.jpg") no-repeat center;
+                img{
+                    margin-top: 21px;
+                    width: 110px;
+                    height: 110px;
+                }
+                h5{
+                    color: #333333;
+                    font-size: 18px;
+                    font-weight: normal;
+                    letter-spacing: -1px;
+                    line-height: 18px;
+                    height: 18px;
+                    margin-top: 7px;
+                    margin-bottom: 40px;
+                }
+                pre{
+                    color: #666666;
+                    font-size: 16px;
+                    line-height: 36px;
+                    // font-weight: lighter;
+                }
+                &:last-child{
+                    margin-right: 0px;
+                    h5{
+                        margin-bottom: 60px;
+                    }
+                }
+            }
+        }
+    }
+    //平台荣誉
+    .honor{
+        
+    }
+}
+
+//上一篇和下一篇按钮
+.article_button{
+    width: 1200px;
+    margin:21px auto 17px;
+    text-align: center;
+    input{
+        display: inline-block;
+        line-height: 38px;
+        width:180px;
+        height:38px;
+        background:rgba(255,255,255,1);
+        border:1px solid rgba(204,204,204,1);
+        border-radius:8px;
+        outline:none;
+        cursor: pointer;
+        &#next{
+            margin-left: 710px;
+        }
+        &.ban{
+            color: #cccccc;
+        }
+    }
+}
+
+.map{
+    display: block;
+    height: 180px;
+    width: 100%;
+    margin-top: 60px;
+}
+
+.article{
+    h4{
+        color: #333333;
+        font-size: 20px;
+        padding-bottom: 22px;
+        border-bottom: 1px solid #F7F7F7;
+        margin-bottom: 16px;
+        small{
+            float: right;
+            font-weight: normal;
+            font-size: 16px;
+        }
+    }
+}
+
+	/* 去掉地图左下角的百度LOGO */
+    .anchorBL {  
+        display:none;  
+    } 
+    .BMap_cpyCtrl{
+		display:none;
+	}

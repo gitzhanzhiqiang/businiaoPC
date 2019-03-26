@@ -1,0 +1,1451 @@
+@import '@/assets/scss/commin.scss';
+
+.tableActive {
+    width: 100% !important;
+    border: none !important;
+    .section {
+        margin: 20px auto;
+        width: 100%;
+        .section_jilu{
+            float: left;
+            h3{
+                float: left;
+                font-size:18px;
+                font-family:PingFang-SC-Bold;
+                font-weight:bold;
+                color:rgba(51,51,51,1);
+            }
+            i{
+                display: block;
+                float: left;
+                width:3px;
+                height:18px;
+                background:rgba(57,99,208,1);
+                border-radius:1px;
+                margin-top: 3px;
+                margin-left: 24px;
+                margin-right: 20px;
+            }
+            p{
+                    float: left;
+                    width:90px;
+                    height:28px;
+                    border-radius:4px;
+                    text-align: center;
+                    line-height: 28px;
+                    color:rgba(51,51,51,1);
+                    margin-left: 15px;
+                    cursor: pointer;
+                }
+                p.actw{
+                         color:rgba(255,255,255,1);
+                          background:rgba(57,99,208,1);
+                    }
+        }
+    }
+}
+
+.tempCon {
+    background-color: #f7f8fd;
+    width: 100%;
+    padding-top: 20px;
+}
+
+.center {
+    width: 1200px;
+    margin-bottom: 20px;
+    // height: 926px;
+    background: rgba(255, 255, 255, 1);
+    border: 1px solid rgba(242, 242, 242, 1);
+    box-shadow: 0px 11px 20px 0px rgba(86, 122, 215, 0.14);
+    border-radius: 8px 8px 4px 8px;
+    margin: 0 auto;
+    .top {
+        width: 100%;
+        height: 127px;
+        .left {
+            width: 20%;
+            height: 100%;
+            float: left;
+            line-height: 127px;
+            .headImg {
+                border-radius: 50%;
+                height: 74px;
+                width: 74px;
+                margin-left: 21px;
+                float: left;
+                margin-top: 21px;
+            }
+            .acountPhone {
+                font-size: 16px;
+                height: 74px;
+                float: left;
+                //width: 109px;
+                font-family: MicrosoftYaHei-Bold;
+                font-weight: bold;
+                color: rgba(51, 51, 51, 1);
+                margin-left: 8px;
+            }
+        }
+        .right {
+            width: 100%;
+            height: 100%;
+            border-bottom: 1px solid rgba(204, 204, 204, 1);
+            float: left;
+            .selectIndex {
+                height: 100%;
+                width: 1200px;
+                margin: 0 auto;
+                .list {
+                    font-size: 16px;
+                    float: left;
+                    width: 98px;
+                    line-height: 36px;
+                    font-family: MicrosoftYaHei;
+                    font-weight: bold;
+                    color: rgba(51, 51, 51, 1);
+                    text-align: center;
+                    margin-top: 61px;
+                    margin-left: 31px;
+                    cursor: pointer;
+                   
+                }
+                .active{
+                    border: 1px solid rgba(57, 99, 208, 1);
+                    border-radius: 18px;
+                    background: white;
+                }
+                .activem{
+                    height: 38px;
+                    overflow: hidden;
+                }
+                .activem:hover{
+                    height: 110px;
+                }
+                .active a{
+                    color: rgba(57, 99, 208, 1);
+                }
+                .active p{
+                       color: #666666;
+                       font-weight: 500;
+                }
+                .active p{
+                       color: #666666;
+                       font-weight: 500;
+                }
+                .active p.activea{
+                       color: rgba(57, 99, 208, 1);
+                       font-weight: 500;
+                }
+            }
+        }
+    }
+    .withdrawal {
+        height: 100px;
+        width: 820px;
+        margin: 29px auto;
+        .balance {
+            width: 274px;
+            height: 100px;
+            float: left;
+            border-right: 1px solid rgba(204, 204, 204, 1);
+            text-align: center;
+            .title {
+                font-size: 14px;
+                font-family: MicrosoftYaHeiLight;
+                font-weight: bold;
+                color: rgba(153, 153, 153, 1);
+            }
+            .amount {
+                font-size: 36px;
+                font-family: MicrosoftYaHei;
+                font-weight: 400;
+                color: rgba(51, 51, 51, 1);
+            }
+        }
+        .moneyDeal {
+            width: 537px;
+            height: 100px;
+            float: left;
+            .item {
+                float: left;
+                width: 180px;
+                height: 50px;
+                line-height: 50px;
+                text-align: center;
+                border-radius: 25px;
+                font-size: 18px;
+                font-family: MicrosoftYaHeiLight;
+                font-weight: 300;
+                margin-top: 25px;
+                cursor: pointer;
+            }
+            .recharge {
+                background: rgba(57, 99, 208, 1);
+                color: rgba(255, 255, 255, 1);
+                margin-left: 58px;
+            }
+            .cash {
+                border: 1px solid rgba(57, 99, 208, 1);
+                margin-left: 70px;
+                color: rgba(57, 99, 208, 1);
+            }
+        }
+    }
+    .amountData {
+        margin: 0 auto;
+        width: 820px;
+        height: 212px;
+        background: rgba(255, 255, 255, 1);
+        // box-shadow: 0px 4px 8px 1px rgba(90, 123, 252, 0.16);
+        display: flex;
+        display: -webkit-flex;
+        .listItem {
+            flex: 1;
+            text-align: center;
+            margin-top: 53px;
+            margin-bottom: 59px;
+            border-right: 1px solid rgba(204, 204, 204, 1);
+            .title {
+                padding-top: 14px;
+                font-size: 16px;
+                font-family: MicrosoftYaHeiLight;
+                font-weight: bold;
+                color: rgba(153, 153, 153, 1);
+            }
+            .amount {
+                margin-top: 16px;
+                font-size: 30px;
+                font-family: MicrosoftYaHei;
+                font-weight: 400;
+                color: rgba(57, 99, 208, 1);
+            }
+        }
+    }
+    .transfer {
+        margin: 40px auto;
+        width: 820px;
+        height: 152px;
+        background: rgba(255, 255, 255, 1);
+        border: 1px solid rgba(217, 217, 217, 1);
+        .title {
+            width: 100%;
+            height: 52px;
+            line-height: 52px;
+            text-align: center;
+            font-size: 20px;
+            font-family: MicrosoftYaHeiLight;
+            font-weight: bold;
+            color: rgba(57, 99, 208, 1);
+            background: rgba(255, 255, 255, 1);
+            box-shadow: 0px 3px 6px 0px rgba(86, 122, 215, 0.26);
+        }
+        .allkind {
+            width: 100%;
+            height: 100px;
+            display: flex;
+            display: -webkit-flex;
+            .item {
+                flex: 1;
+                text-align: center;
+                .status {
+                    margin-top: 24px;
+                    font-size: 14px;
+                    font-family: MicrosoftYaHeiLight;
+                    font-weight: 300;
+                    color: rgba(128, 128, 128, 1);
+                }
+                .amount {
+                    margin-top: 24px;
+                    font-size: 18px;
+                    font-family: MicrosoftYaHei;
+                    font-weight: 400;
+                    color: rgba(51, 51, 51, 1);
+                }
+            }
+        }
+    }
+    .section {
+        margin: 20px auto;
+        width: 100%;
+        .tableList {
+            width: 98%;
+            margin: 20px auto;
+            // margin-right: 10px;
+            .xiugai{
+                        width:96px;
+                        overflow: hidden;
+                        background:rgba(255,255,255,1);
+                        border:1px solid rgba(92,136,251,1);
+                        border-radius:6px;
+                        position: absolute;
+                        right: 10px;
+                        top: 50px;
+                        z-index: 55;
+                        ul{
+                            li{
+                                width: 100%;
+                                height: 40px;
+                                line-height: 40px;
+                                text-align: center;
+                                font-size:16px;
+                                font-family:PingFang-SC-Medium;
+                                font-weight:500;
+                                color:rgba(0,0,0,1);
+                                cursor: pointer;
+                            }
+                        }
+                    }
+                    .tishishang{
+                        width: 100%;
+                        height: 300px;
+                        img{
+                            display: block;
+                            margin: 0 auto;
+                            padding-top: 50px;
+                            padding-bottom: 20px;
+                        }
+                        .meishang{
+                            width: 100%;
+                            text-align: center;
+                            margin-bottom: 100px;
+                            a{
+                                cursor: pointer;
+                                color: #3963D0;
+                            }
+                        }
+                        div{
+                            position: relative;
+                            i{
+                                display: block;
+                                width:600px;
+                                height:1px;
+                                background:rgba(230,230,230,1);
+                                margin: 0 auto;
+                            }
+                            span{
+                                position: absolute;
+                                top: -12px;
+                                left: 350px;
+                                background: white;
+                            }
+                        }
+                    }
+        }
+        .safeList {
+            margin: 20px auto;
+            width: 778px;
+            height: 90px;
+            line-height: 90px;
+            border-bottom: 1px solid rgba(217, 217, 217, 1);
+            .title {
+                margin-left: 27px;
+                float: left;
+            }
+            .data {
+                margin-left: 62px;
+                float: left;
+            }
+            .operate {
+                font-weight: bold;
+                margin-right: 31px;
+                float: right;
+                cursor: pointer;
+            }
+        }
+    }
+    .rechargeCash {
+        margin: 20px auto;
+        width: 800px;
+        .top {
+            width: 100%;
+            height: 14px;
+            .logo {
+                width: 10px;
+                height: 10px;
+                background: rgba(57, 99, 208, 1);
+                float: left;
+                // margin-left: 20px;
+            }
+            .title {
+                margin-left: 6px;
+                float: left;
+                width: 31px;
+                height: 14px;
+                font-size: 14px;
+                font-family: MicrosoftYaHeiLight;
+                font-weight: 300;
+                color: rgba(51, 51, 51, 1);
+                line-height: 14px;
+            }
+        }
+        .payStyle {
+            width: 700px;
+            height: 40px;
+            margin-top: 29px;
+            .payTitle {
+                float: left;
+                margin-left: 20px;
+                width: 80px;
+                height: 40px;
+                font-size: 15px;
+                font-family: MicrosoftYaHeiLight;
+                font-weight: 500;
+                color: rgba(0, 0, 0, 1);
+                line-height: 40px;
+            }
+            .tabButton {
+                float: left;
+                width: 320px;
+                height: 40px;
+                cursor: pointer;
+                // background: rgba(57, 99, 208, 1);
+                .tabitemLeft {
+                    text-align: center;
+                    height: 38px;
+                    width: 158px;
+                    border: 1px solid rgba(153, 153, 153, 1);
+                    float: left;
+                    line-height: 40px;
+                    font-size: 16px;
+                    font-family: MicrosoftYaHei;
+                    font-weight: bold;
+                    color: rgba(153, 153, 153, 1);
+                    background: #fff;
+                    border-radius: 20px 0px 0px 20px;
+                }
+                .tabitemRight {
+                    text-align: center;
+                    height: 38px;
+                    width: 158px;
+                    float: left;
+                    line-height: 40px;
+                    font-size: 16px;
+                    font-family: MicrosoftYaHei;
+                    font-weight: bold;
+                    color: rgba(153, 153, 153, 1);
+                    background: #fff;
+                    border-radius: 0px 20px 20px 0px;
+                    border: 1px solid rgba(153, 153, 153, 1);
+                }
+                .tabActive {
+                    // border-radius: 20px;
+                    background: rgba(57, 99, 208, 1);
+                    color: rgba(255, 255, 255, 1);
+                    border: 1px solid rgb(56, 98, 208);
+                }
+            }
+        }
+        .bank {
+            width: 100%;
+            margin-top: 40px;
+            margin-left: 20px;
+            .bankTitle {
+                float: left;
+                font-size: 15px;
+                font-family: MicrosoftYaHeiLight;
+                font-weight: 500;
+            }
+            .bankLogo {
+                width: 800px;
+                float: left;
+                margin-left: 70px;
+                min-height: 50px;
+                margin-top: -30px;
+            }
+        }
+        .border {
+            width: 100%;
+            height: 1px;
+            border-bottom: 1px solid rgba(219, 219, 219, 1);
+            margin-top: 42px;
+            margin-left: 30px;
+        }
+        .amountCon {
+            margin-top: 30px;
+            height: 300px;
+            .leftCon {
+                float: left;
+                width: 310px;
+                height: 300px;
+                text-align: right;
+                .item {
+                    height: 40px;
+                    line-height: 40px;
+                    font-size: 18px;
+                    font-family: MicrosoftYaHeiLight;
+                    text-indent: 184px;
+                    font-weight: 300;
+                    color: rgba(0, 0, 0, 1);
+                    margin-top: 20px;
+                }
+            }
+            .rightCon {
+                float: left;
+                width: 50%;
+                height: 300px;
+                .item {
+                    font-size: 18px;
+                    text-indent: 20px;
+                    height: 40px;
+                    line-height: 40px;
+                    font-family: MicrosoftYaHeiLight;
+                    font-weight: 400;
+                    color: rgba(0, 0, 0, 1);
+                    margin-top: 20px;
+                    position: relative;
+                    .text {
+                        width: 280px;
+                        height: 40px;
+                        line-height: 40px;
+                        font-size: 18px;
+                        font-family: MicrosoftYaHeiLight;
+                        font-weight: 400;
+                        // color: rgba(153, 153, 153, 1);
+                        color: rgba(0, 0, 0, 1);
+                        text-indent: 23px;
+                        border: 1px solid rgba(196, 209, 216, 1);
+                        border-radius: 4px;
+                        text-align: left;
+                    }
+                    .danwei {
+                        position: absolute;
+                        top: 0;
+                        left: 255px;
+                    }
+                    .getCode {
+                        text-indent: 0;
+                        position: absolute;
+                        top: 0;
+                        left: 240px;
+                        width: 58px;
+                        height: 40px;
+                        line-height: 40px;
+                        color: rgba(57, 99, 208, 1);
+                        border: 1px solid #c4d1d8;
+                        text-align: center;
+                        cursor: pointer;
+                    }
+                }
+            }
+            .item {
+                font-size: 18px;
+                font-family: MicrosoftYaHeiLight;
+                font-weight: 300;
+                color: rgba(0, 0, 0, 1);
+                margin-top: 20px;
+            }
+        }
+        .chongzhi {
+            height: 42px;
+            width: 100%;
+            margin-top: 60px;
+            margin-bottom: 150px;
+            .button {
+                margin: 0 auto;
+                width: 300px;
+                height: 42px;
+                background: rgba(57, 99, 208, 1);
+                border-radius: 20px;
+                line-height: 42px;
+                text-align: center;
+                font-size: 18px;
+                font-family: MicrosoftYaHeiLight;
+                font-weight: 300;
+                color: rgba(255, 255, 255, 1);
+                cursor: pointer;
+            }
+        }
+        .amountItem {
+            width: 100%;
+            height: 380px;
+            font-size: 18px;
+            font-family: MicrosoftYaHeiLight;
+            font-weight: 300;
+            color: rgba(0, 0, 0, 1);
+            margin-top: 30px;
+            .amountLeft {
+                float: left;
+                width: 40%;
+                .item {
+                    height: 40px;
+                    width: 100%;
+                    line-height: 40px;
+                    text-align: right;
+                    text-indent: 150px;
+                    margin-bottom: 20px;
+                }
+            }
+            .amountRight {
+                float: left;
+                width: 50%;
+                margin-left: 10px;
+                .item {
+                    width: 100%;
+                    margin-bottom: 20px;
+                    height: 40px;
+                    line-height: 40px;
+                    text-align: left;
+                    font-size: 20px;
+                    font-family: MicrosoftYaHei;
+                    font-weight: 400;
+                    color: rgba(0, 0, 0, 1);
+                    .elInput {
+                        font-size: 20px;
+                        font-family: MicrosoftYaHei;
+                        font-weight: 400;
+                        color: rgba(0, 0, 0, 1);
+                    }
+                }
+            }
+        }
+    }
+    .newsCenter {
+        width: 836px;
+        margin: 20px auto;
+        .title {
+            width: 100%;
+            height: 50px;
+            .tabNew {
+                width: 416px;
+                height: 100%;
+                font-size: 14px;
+                font-family: MicrosoftYaHeiLight;
+                font-weight: 300;
+                color: rgba(57, 99, 208, 1);
+                line-height: 52px;
+                text-align: center;
+                float: left;
+                border: 1px solid rgba(57, 99, 208, 1);
+                cursor: pointer;
+            }
+            .tabNewActive {
+                background: rgba(57, 99, 208, 1);
+                color: rgba(255, 255, 255, 1);
+            }
+        }
+        .newsItem {
+            width: 100%;
+            border-left: 1px solid rgba(217, 217, 217, 1);
+            border-right: 1px solid rgba(217, 217, 217, 1);
+            border-bottom: 2px solid rgba(217, 217, 217, 1);
+            .title {
+                height: 52px;
+                line-height: 52px;
+                .fabu {
+                    float: left;
+                    font-size: 20px;
+                    font-family: MicrosoftYaHei;
+                    font-weight: 400;
+                    color: rgba(0, 0, 0, 1);
+                    margin-left: 21px;
+                }
+                .createTime {
+                    float: left;
+                    font-size: 12px;
+                    font-family: MicrosoftYaHeiLight;
+                    font-weight: 300;
+                    color: rgba(153, 153, 153, 1);
+                    margin-left: 19px;
+                }
+                .collpose {
+                    float: right;
+                    margin-right: 22px;
+                    cursor: pointer;
+                    width: 30px;
+                    height: 30px;
+                }
+            }
+            .line {
+                width: 730px;
+                height: 1px;
+                background: rgba(217, 217, 217, 1);
+                margin-left: 56px;
+            }
+            .substr {
+                width: 713px;
+                height: 52px;
+                font-size: 14px;
+                font-family: MicrosoftYaHeiLight;
+                font-weight: 300;
+                color: rgba(51, 51, 51, 1);
+                margin-left: 54px;
+                overflow: hidden;
+                text-overflow: ellipsis;
+                white-space: nowrap;
+                line-height: 52px;
+            }
+            .active {
+                height: 104px !important;
+                // white-space: pre-wrap;
+                line-height: 52px !important;
+                // overflow-y: auto;
+                white-space: normal;
+                // overflow: hidden;
+            }
+        }
+    }
+}
+
+
+//存证保全
+.section {
+    .ptwop{
+        width: 1125px;
+        margin: 0 auto;
+         .meiyoud{
+            width: 100%;
+            height: 500px;
+            padding-top: 100px;
+            background: white;
+            img{
+                width: 331px;
+                height: 221px;
+                display: block;
+                margin: 0 auto;
+            }
+            p{
+                font-size:18px;
+                font-family:PingFang-SC-Regular;
+                font-weight:400;
+                color:rgba(128,128,128,1);
+                text-align: center;
+                margin-top: 60px;
+                span{
+                    color: #5684FC;
+                    cursor: pointer;
+                }
+            }
+        }
+        .bttm{
+            width:160px;
+            height:40px;
+            background:rgba(57,99,208,1);
+            border-radius:4px;
+            text-align: center;
+            line-height: 40px;
+            color: white;
+            font-family:MicrosoftYaHeiLight;
+            font-weight:300;
+            cursor: pointer;
+            margin-left: 13px;
+            margin-bottom: 10px;
+        }
+        b{
+            font-size:16px;
+            font-family:MicrosoftYaHeiLight;
+            font-weight:400;
+            color:rgba(51,51,51,1);
+            line-height: 40px;
+            margin-left: 16px;
+        }
+        table {
+            width: 100%;
+            tr{
+                width: 100%;
+                height: 82px;
+                td{
+                    height: 82px;
+                    border-top: 1px solid #F7F8FD;
+                    position: relative;
+                    img.tuc {
+                        width: 40px;
+                        height: 40px;
+                        float: left;
+                    }
+                    .dianx{
+                        width: 80px;
+                        height: 35px;
+                        float: right;
+                         img.dian {
+                            width: 24px;
+                            height: 6px;
+                            float: right;
+                            margin-top: 20px;
+                            margin-right: 42px;
+                            cursor: pointer;
+                        }
+                    }
+                   
+                    span.mingc{
+                        float: left;
+                        margin-top: 10px;
+                        margin-left: 32px;
+                        font-size: 16px;
+                        font-weight: 600;
+                    }
+                    .xiugai{
+                        width:96px;
+                        overflow: hidden;
+                        background:rgba(255,255,255,1);
+                        border:1px solid rgba(92,136,251,1);
+                        border-radius:6px;
+                        position: absolute;
+                        right: 10px;
+                        top: 50px;
+                        z-index: 55;
+                        ul{
+                            li{
+                                width: 100%;
+                                height: 40px;
+                                line-height: 40px;
+                                text-align: center;
+                                font-size:16px;
+                                font-family:PingFang-SC-Medium;
+                                font-weight:500;
+                                color:rgba(0,0,0,1);
+                                cursor: pointer;
+                            }
+                        }
+                    }
+                    .gengming{
+                        width: 350px;
+                        height: 36px;
+                        position: absolute;
+                        left: 60px;
+                        top: 27px;
+                        background: white;
+                        input{
+                            width: 260px;
+                            height: 32px;
+                            font-size:20px;
+                            font-family:PingFang-SC-Medium;
+                            font-weight:500;
+                            color:rgba(0,0,0,1);
+                            float: left;
+                        }
+                        span{
+                            width: 36px;
+                            height: 36px;
+                            display: inline-block;
+                            background:rgba(231,239,255,1);
+                            border-radius:4px;
+                            float: left;
+                            margin-left: 5px;
+                            img{
+                                width: 23px;
+                                height: 23px;
+                                display: block;
+                                margin: 0 auto;
+                                margin-top: 7px;
+                            }
+                        }
+                    }
+                }
+            }
+            tr:hover{
+                background: #F9FBFF;
+            }
+        }
+        
+    }
+    .detailsall{
+            width: 1125px;
+            margin: 0 auto;
+            .btm1{
+                width: 100%;
+                height: 40px;
+                margin-bottom: 10px;
+                p{
+                    float: left;
+                }
+                p.scwj{
+                    width: 160px;
+                    height: 40px;
+                    background:rgba(57,99,208,1);
+                    border-radius:4px;
+                    text-indent: 5em;
+                    line-height: 40px;
+                    color: white;
+                    position: relative;
+                    cursor: pointer;
+                    img{
+                        width: 20px;
+                        height: 20px;
+                        position: absolute;
+                        left: 48px;
+                        top: 9px;
+                    }
+                }
+                p.baochun{
+                    width:110px;
+                    height:40px;
+                    background:rgba(57,99,208,1);
+                    color: white;
+                    border-radius:4px;
+                    text-align: center;
+                    line-height: 40px;
+                    margin-left: 20px;
+                    cursor: pointer;
+                }
+                p.baochunx{
+                    width:110px;
+                    height:40px;
+                    border: 1px solid rgba(57,99,208,1);
+                    color: rgba(57,99,208,1);
+                    border-radius:4px;
+                    text-align: center;
+                    line-height: 40px;
+                    margin-left: 20px;
+                    cursor: pointer;
+                }
+            }
+            .luyou{
+                width: 100%;
+                height: 30px;
+                color:#DDDDDD;
+                margin-top: 20px;
+                span{
+                    display: inline-block;
+                    line-height: 30px;
+                    cursor: pointer;
+                }
+            }
+            .xinxit{
+                width: 100%;
+                height: 36px;
+                margin-top: 30px;
+                span{
+                    width: 75px;
+                    line-height: 36px;
+                    display: inline-block;
+                    font-size:16px;
+                    font-family:PingFang-SC-Bold;
+                    font-weight:bold;
+                    color:rgba(153,153,153,1);
+                     text-align: left;
+                    margin-bottom: 20px;
+                    
+                }
+                input{
+                    height: 36px;
+                    outline: none;
+                   border:1px solid rgba(237,237,237,1);
+                    border-radius:4px;
+                    background: none;
+                }
+                input.actt{
+                    border: 1px solid #DDDDDD;
+                }
+            }
+            
+        }
+    //新建文件
+    .wenjian{
+        width: 1125px;
+        margin: 0 auto;
+        p{
+            font-size:16px;
+            font-family:MicrosoftYaHeiLight;
+            font-weight:bold;
+            color:rgba(57,99,208,1);
+            line-height:60px;
+            cursor: pointer;
+        }
+        h3{
+            width: 1012px;
+            font-size:18px;
+            margin: 0 auto;
+            border-bottom: 1px solid #F7F8FD;
+            font-family:MicrosoftYaHeiLight;
+            font-weight:300;
+            color:rgba(51,51,51,1);
+            text-align: center;
+            line-height: 70px;
+        }
+        .wenjian_xin{
+            width: 620px;
+            margin: 0 auto;
+            margin-top: 30px;
+            .licuan{
+                width: 100%;
+                height: 40px;
+                 margin-bottom: 30px;
+                span{
+                    width: 100px;
+                    display: inline-block;
+                    text-align: right;
+                    font-size:14px;
+                    font-family:MicrosoftYaHeiLight;
+                    font-weight:300;
+                    color:rgba(128,128,128,1);
+                    line-height:40px;
+                }
+                b{
+                    margin-left: 30px;
+                }
+                input{
+                    width: 480px;
+                    height: 40px;
+                    border:1px solid rgba(196,209,216,1);
+                    border-radius:4px;
+                    font-size:16px;
+                    font-family:MicrosoftYaHeiLight;
+                    font-weight:300;
+                    color:rgba(51,51,51,1);
+                    outline: none;
+                }
+                textarea{
+                    width: 480px;
+                    height: 240px;
+                    border:1px solid rgba(196,209,216,1);
+                    border-radius:4px;
+                    font-size:16px;
+                    font-family:MicrosoftYaHeiLight;
+                    font-weight:300;
+                    color:rgba(51,51,51,1);
+                    vertical-align:top;
+                    resize: none;
+                    outline: none;
+                }
+            }
+        }
+    }
+}
+
+
+.invitation{
+    width: 100%;
+    overflow: hidden;
+    .invitation_l{
+        width: 290px;
+        height: 100%;
+        float: left;
+        margin-bottom: 30px;
+        p{
+            width: 120px;
+            height: 44px;
+            line-height: 44px;
+            margin: 0 auto;
+            text-align: center;
+            font-size:14px;
+            font-family:MicrosoftYaHei;
+            font-weight:400;
+            color:#2F61D9;
+            border-radius:4px;
+            cursor: pointer;
+            margin-top: 60px;
+        }
+        p:first-child{
+            margin-top: 50px;
+        }
+        p.activ{
+            background: #2F61D9;
+            color: white;
+            border-radius:4px;
+        }
+    }
+    .invitation_r{
+        width: 800px;
+        height: 100%;
+        float: right;
+        margin-right: 60px;
+        margin-top: 58px;
+        h3{
+            font-size:20px;
+            font-family:MicrosoftYaHei-Bold;
+            font-weight:bold;
+            color:rgba(51,51,51,1);
+        }
+        .commissiobag{
+            width: 100%;
+            overflow: hidden;
+            margin-top: 45px;
+            .commissiobag_l{
+                width: 380px;
+                overflow: hidden;
+                float: left;
+                 p{
+                font-size:18px;
+                font-family:MicrosoftYaHeiLight;
+                font-weight:300;
+                color:rgba(51,51,51,1);
+                line-height:36px;
+                }
+                span{
+                    font-size:14px;
+                    font-family:MicrosoftYaHeiLight;
+                    font-weight:300;
+                    color:rgba(153,153,153,1);
+                }
+                span.bei{
+                    display: block;
+                    margin-top: 20px;
+                    margin-bottom: 30px;
+                }
+                .commissiobag_b{
+                    width: 340px;
+                    height: 100px;
+                    margin-top: 20px;
+                    p{
+                        font-size:14px;
+                        font-family:MicrosoftYaHeiLight;
+                        font-weight:bold;
+                        color:rgba(255,255,255,1);
+                        line-height: 35px;
+                        text-align: center;
+                    }
+                    p:first-child{
+                        padding-top: 15px;
+                    }
+                }
+            }
+           
+        }
+        .filstd{
+            width: 100%;
+            height: 1px;
+            background: #F2F2F2;
+        }
+        h4{
+            font-size:20px;
+            font-family:MicrosoftYaHei-Bold;
+            font-weight:bold;
+            color:rgba(51,51,51,1);
+            line-height: 35px;
+            margin-top: 40px;
+        }
+        .guize{
+            width: 100%;
+            overflow: hidden;
+            ul{
+               height: 130px;
+               margin-top: 30px;
+               li{
+                   width: 160px;
+                   height: 130px;
+                   float: left;
+                   span{
+                       width: 95px;
+                       display: block;
+                       line-height: 30px;
+                       font-size:14px;
+                        font-family:MicrosoftYaHeiLight;
+                        font-weight:300;
+                        color:rgba(102,102,102,1);
+                        text-align: center;
+                   }
+                   img{
+                       margin-left: 6px;
+                   }
+               }
+            }
+            p{
+                font-size:14px;
+                font-family:MicrosoftYaHeiLight;
+                font-weight:300;
+                color:rgba(153,153,153,1);
+                line-height:36px;
+                margin-bottom: 30px;
+            }
+        }
+        .zhuanqian{
+            width: 100%;
+            overflow: hidden;
+            .zhuanqian_l{
+                width: 180px;
+                overflow: hidden;
+                 float: left;
+            P{
+                font-size:16px;
+                font-family:MicrosoftYaHeiLight;
+                font-weight:bold;
+                color:rgba(102,102,102,1);
+                line-height: 30px;
+                margin-top: 35px;
+            }
+            #cpLinka{
+                border: none;
+                width: 100%;
+                outline: none;
+                -webkit-appearance: none;
+                -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+                resize: none;
+                font-size:20px;
+                font-family:MicrosoftYaHei;
+                font-weight:400;
+                color:rgba(51,51,51,1);
+                 height: 60px;
+                margin-top: 15px;
+            }
+             #cpLinkaa{
+                border: none;
+                width: 100%;
+                outline: none;
+                -webkit-appearance: none;
+                -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+                resize: none;
+                font-size:20px;
+                font-family:MicrosoftYaHei;
+                font-weight:400;
+                color:rgba(51,51,51,1);
+                height: 60px;
+                margin-top: 15px;
+            }
+            span{
+                display: block;
+                width:80px;
+                height:36px;
+                border:1px solid rgba(47,97,217,1);
+                border-radius:4px;
+                font-size:14px;
+                font-family:MicrosoftYaHei;
+                font-weight:400;
+                color:rgba(47,97,217,1);
+                text-align: center;
+                line-height: 36px;
+                cursor: pointer;
+            }
+            
+           }
+           .wenzi{
+                width: 100%;
+                float: left;
+                line-height: 90px;
+                font-size:14px;
+                font-family:MicrosoftYaHeiLight;
+                font-weight:300;
+                color:rgba(153,153,153,1);
+            }
+        }
+        .huodong{
+            width: 100%;
+            overflow: hidden;
+            margin-top: 25px;
+            margin-bottom: 25px;
+            p{
+                font-size:14px;
+                font-family:MicrosoftYaHeiLight;
+                font-weight:300;
+                color:rgba(153,153,153,1);
+                line-height:36px;
+            }
+        }
+    }
+    .myyao_top{
+        width: 100%;
+        overflow: hidden;
+        ul{
+            li{
+                float: left;
+                font-size:16px;
+                font-family:MicrosoftYaHeiLight;
+                font-weight:bold;
+                color:rgba(153,153,153,1);
+                margin-right: 100px;
+                span{
+                    display: block;
+                    font-size:30px;
+                    font-family:MicrosoftYaHei;
+                    font-weight:400;
+                    color:rgba(51,51,51,1);
+                    line-height: 70px;
+                }
+            }
+        }
+    }
+    .tables{
+        width: 100%;
+        overflow: hidden;
+        tr{
+            th{
+                height: 45px;
+                line-height: 45px;
+                text-align: center;
+                border-bottom: 1px solid #F2F2F2;
+                ont-size:14px;
+                font-family:MicrosoftYaHeiLight;
+                font-weight:300;
+                color:rgba(153,153,153,1);
+            }
+            td{
+                 height: 45px;
+                line-height: 45px;
+                text-align: center;
+                font-size:14px;
+                font-family:MicrosoftYaHeiLight;
+                font-weight:300;
+                color:rgba(51,51,51,1);
+            }
+        }
+    }
+    .tablesa{
+        width: 100%;
+        height: 500px;
+        text-align: center;
+        font-size:18px;
+        font-family:PingFang-SC-Regular;
+        font-weight:400;
+        color:rgba(128,128,128,1);
+        line-height: 60px;
+        padding-top: 130px;
+        img{
+            display: block;
+            margin: 0 auto;
+        }
+    }
+}
+
+
+//我的福利
+.mywelfare{
+    width: 100%;
+    overflow: hidden;
+    .invitation_l{
+        width: 290px;
+        height: 100%;
+        float: left;
+        p{
+            width: 120px;
+            height: 44px;
+            line-height: 44px;
+            margin: 0 auto;
+            text-align: center;
+           font-size:18px;
+            font-family:PingFangSC-Medium;
+            font-weight:500;
+            color:rgba(85,85,85,1);
+            border-radius:4px;
+            cursor: pointer;
+            margin-top: 60px;
+        }
+        p:first-child{
+            margin-top: 50px;
+        }
+        p.activ{
+            background: #2F61D9;
+            color: white;
+            border-radius:4px;
+        }
+        h2{
+            font-size:20px;
+            font-family:PingFangSC-Medium;
+            font-weight:600;
+            color:rgba(85,85,85,1);
+            text-align: center;
+            margin-top: 50px;
+            position: relative;
+            span{
+                font-size:16px;
+                font-family:PingFangSC-Medium;
+                font-weight:500;
+                color:rgba(132,132,132,1);
+                position: absolute;
+                right: 0px;
+                top: 3px;
+                img{
+                    float: right;
+                    margin-left: 5px;
+                    margin-top: 3px;
+                }
+            }
+        }
+    }
+    .weishiy{
+        width: 800px;
+        float: right;
+        height: 900px;
+        margin-top: 50px;
+        .imgmei{
+            width: 119px;
+            overflow: hidden;
+            margin:  0 auto;
+            padding-top: 250px;
+            font-family: PingFangSCRegular;
+            font-size: 16px;
+            color: #A3A3A3;
+            text-align: center;
+            line-height: 30px;
+            img{
+                width: 119px;
+                height: 81px;
+                display: block;
+            }
+        }
+        
+        ul{
+            li{
+                width: 343px;
+                height: 100px;
+                float: left;
+                margin-right: 30px;
+                margin-bottom: 30px;
+                position: relative;
+                cursor: pointer;
+                span{
+                     position: absolute;
+                }
+                span.time{
+                    font-family: PingFangSC-Medium;
+                    font-size: 12px;
+                    color: #CACACA;
+                    right: 40px;
+                    bottom:8px ;
+                }
+                span.tit{
+                    display: block;
+                    font-size:20px;
+                    font-family:PingFangSC-Medium;
+                    font-weight:500;
+                    color:rgba(255,255,255,1);
+                    left: 17px;
+                    top: 23px;
+                }
+                span.zhe{
+                    display: block;
+                    font-size:18px;
+                    font-family:PingFangSC-Medium;
+                    font-weight:500;
+                    color:rgba(255,255,255,1);
+                   left: 8px;
+                    top: 55px;
+                }
+                span.fuwu{
+                    display: block;
+                    font-size:20px;
+                    font-family:PingFangSC-Medium;
+                    font-weight:500;
+                    color:rgba(85,85,85,1);
+                       left: 123px;
+                        top: 12px;
+                }
+                span.dikou{
+                    display: block;
+                   font-size:16px;
+                    font-family:PingFangSC-Medium;
+                    font-weight:500;
+                    color:rgba(138,138,138,1);
+                  left: 123px;
+                    top: 44px;
+                }
+            }
+        }
+    }
+}
+
+.shuoming{
+    width: 100%;
+    overflow: hidden;
+     h1{
+        text-align: center;
+        font-size:20px;
+        font-family:PingFangSC-Medium;
+        font-weight:500;
+        color:rgba(85,85,85,1);
+    }
+    span{
+        font-size:16px;
+        font-family:PingFangSC-Medium;
+        font-weight:500;
+        color:rgba(85,85,85,1);
+        display: block;
+        line-height: 30px;
+    }
+    p{
+        font-size:14px;
+        font-family:PingFangSC-Medium;
+        font-weight:600;
+        color:rgba(124,124,124,1);
+        line-height: 25px;
+    }
+}
